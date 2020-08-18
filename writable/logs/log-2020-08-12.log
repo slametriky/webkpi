@@ -1,0 +1,30 @@
+CRITICAL - 2020-08-12 22:27:43 --> Invalid file: dashboard.php
+#0 /home/ikhwan/www/lokoweb/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 /home/ikhwan/www/lokoweb/system/Common.php(1119): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 /home/ikhwan/www/lokoweb/app/Controllers/Dashboard.php(7): view('dashboard')
+#3 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(918): App\Controllers\Dashboard->index()
+#4 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/ikhwan/www/lokoweb/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 /home/ikhwan/www/lokoweb/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#8 {main}
+CRITICAL - 2020-08-12 22:27:49 --> Invalid file: dashboard.php
+#0 /home/ikhwan/www/lokoweb/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 /home/ikhwan/www/lokoweb/system/Common.php(1119): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 /home/ikhwan/www/lokoweb/app/Controllers/Dashboard.php(7): view('dashboard')
+#3 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(918): App\Controllers\Dashboard->index()
+#4 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/ikhwan/www/lokoweb/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 /home/ikhwan/www/lokoweb/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#8 {main}
+CRITICAL - 2020-08-12 22:28:49 --> Invalid file: dashboard.php
+#0 /home/ikhwan/www/lokoweb/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 /home/ikhwan/www/lokoweb/system/Common.php(1119): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 /home/ikhwan/www/lokoweb/app/Controllers/Dashboard.php(7): view('dashboard')
+#3 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(918): App\Controllers\Dashboard->index()
+#4 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/ikhwan/www/lokoweb/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 /home/ikhwan/www/lokoweb/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#8 {main}

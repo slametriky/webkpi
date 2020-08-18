@@ -1,0 +1,278 @@
+CRITICAL - 2020-08-13 01:18:00 --> Unable to connect to the database.
+#0 /home/ikhwan/www/lokoweb/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/ikhwan/www/lokoweb/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/ikhwan/www/lokoweb/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/ikhwan/www/lokoweb/app/Controllers/Api/Kategori.php(15): CodeIgniter\Model->findAll()
+#4 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(918): App\Controllers\Api\Kategori->index()
+#5 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Kategori))
+#6 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/ikhwan/www/lokoweb/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/ikhwan/www/lokoweb/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#9 {main}
+CRITICAL - 2020-08-13 01:18:50 --> Unable to connect to the database.
+#0 /home/ikhwan/www/lokoweb/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/ikhwan/www/lokoweb/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/ikhwan/www/lokoweb/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/ikhwan/www/lokoweb/app/Controllers/Api/Kategori.php(15): CodeIgniter\Model->findAll()
+#4 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(918): App\Controllers\Api\Kategori->index()
+#5 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Kategori))
+#6 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/ikhwan/www/lokoweb/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/ikhwan/www/lokoweb/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#9 {main}
+CRITICAL - 2020-08-13 01:18:50 --> Unable to connect to the database.
+#0 /home/ikhwan/www/lokoweb/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/ikhwan/www/lokoweb/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/ikhwan/www/lokoweb/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/ikhwan/www/lokoweb/app/Controllers/Api/Kategori.php(15): CodeIgniter\Model->findAll()
+#4 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(918): App\Controllers\Api\Kategori->index()
+#5 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Kategori))
+#6 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/ikhwan/www/lokoweb/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/ikhwan/www/lokoweb/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#9 {main}
+CRITICAL - 2020-08-13 01:18:51 --> Unable to connect to the database.
+#0 /home/ikhwan/www/lokoweb/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/ikhwan/www/lokoweb/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/ikhwan/www/lokoweb/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/ikhwan/www/lokoweb/app/Controllers/Api/Kategori.php(15): CodeIgniter\Model->findAll()
+#4 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(918): App\Controllers\Api\Kategori->index()
+#5 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Kategori))
+#6 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/ikhwan/www/lokoweb/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/ikhwan/www/lokoweb/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#9 {main}
+CRITICAL - 2020-08-13 01:18:51 --> Unable to connect to the database.
+#0 /home/ikhwan/www/lokoweb/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/ikhwan/www/lokoweb/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/ikhwan/www/lokoweb/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/ikhwan/www/lokoweb/app/Controllers/Api/Kategori.php(15): CodeIgniter\Model->findAll()
+#4 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(918): App\Controllers\Api\Kategori->index()
+#5 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Kategori))
+#6 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/ikhwan/www/lokoweb/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/ikhwan/www/lokoweb/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#9 {main}
+CRITICAL - 2020-08-13 01:18:51 --> Unable to connect to the database.
+#0 /home/ikhwan/www/lokoweb/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/ikhwan/www/lokoweb/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/ikhwan/www/lokoweb/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/ikhwan/www/lokoweb/app/Controllers/Api/Kategori.php(15): CodeIgniter\Model->findAll()
+#4 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(918): App\Controllers\Api\Kategori->index()
+#5 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Kategori))
+#6 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/ikhwan/www/lokoweb/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/ikhwan/www/lokoweb/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#9 {main}
+CRITICAL - 2020-08-13 01:23:48 --> Call to undefined method App\Controllers\Api\Kategori::respond()
+#0 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(918): App\Controllers\Api\Kategori->index()
+#1 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Kategori))
+#2 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ikhwan/www/lokoweb/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ikhwan/www/lokoweb/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#5 {main}
+CRITICAL - 2020-08-13 01:23:50 --> Call to undefined method App\Controllers\Api\Kategori::respond()
+#0 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(918): App\Controllers\Api\Kategori->index()
+#1 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Kategori))
+#2 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ikhwan/www/lokoweb/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ikhwan/www/lokoweb/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#5 {main}
+CRITICAL - 2020-08-13 01:23:50 --> Call to undefined method App\Controllers\Api\Kategori::respond()
+#0 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(918): App\Controllers\Api\Kategori->index()
+#1 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Kategori))
+#2 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ikhwan/www/lokoweb/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ikhwan/www/lokoweb/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#5 {main}
+CRITICAL - 2020-08-13 01:25:12 --> Call to undefined method App\Controllers\Api\Kategori::respond()
+#0 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(918): App\Controllers\Api\Kategori->index()
+#1 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Kategori))
+#2 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ikhwan/www/lokoweb/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ikhwan/www/lokoweb/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#5 {main}
+CRITICAL - 2020-08-13 01:25:13 --> Call to undefined method App\Controllers\Api\Kategori::respond()
+#0 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(918): App\Controllers\Api\Kategori->index()
+#1 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Kategori))
+#2 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ikhwan/www/lokoweb/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ikhwan/www/lokoweb/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#5 {main}
+CRITICAL - 2020-08-13 01:25:49 --> Call to undefined method App\Controllers\Api\Kategori::respond()
+#0 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(918): App\Controllers\Api\Kategori->index()
+#1 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Kategori))
+#2 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ikhwan/www/lokoweb/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ikhwan/www/lokoweb/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#5 {main}
+CRITICAL - 2020-08-13 01:27:21 --> Unable to connect to the database.
+#0 /home/ikhwan/www/lokoweb/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/ikhwan/www/lokoweb/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/ikhwan/www/lokoweb/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/ikhwan/www/lokoweb/app/Controllers/Api/Kategori.php(16): CodeIgniter\Model->findAll()
+#4 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(918): App\Controllers\Api\Kategori->index()
+#5 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Kategori))
+#6 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/ikhwan/www/lokoweb/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/ikhwan/www/lokoweb/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#9 {main}
+CRITICAL - 2020-08-13 01:27:21 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /home/ikhwan/www/lokoweb/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home/ikhwan/ww...', 100, Array)
+#1 /home/ikhwan/www/lokoweb/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Api\Kategori), true)
+#2 /home/ikhwan/www/lokoweb/system/Debug/Exceptions.php(308): include('/home/ikhwan/ww...')
+#3 /home/ikhwan/www/lokoweb/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 01:28:59 --> Unable to connect to the database.
+#0 /home/ikhwan/www/lokoweb/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/ikhwan/www/lokoweb/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/ikhwan/www/lokoweb/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/ikhwan/www/lokoweb/app/Models/Kategori_model.php(14): CodeIgniter\Model->findAll()
+#4 /home/ikhwan/www/lokoweb/app/Controllers/Api/Kategori.php(16): App\Models\Kategori_model->getCategory()
+#5 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(918): App\Controllers\Api\Kategori->index()
+#6 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Kategori))
+#7 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/ikhwan/www/lokoweb/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /home/ikhwan/www/lokoweb/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#10 {main}
+CRITICAL - 2020-08-13 01:28:59 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /home/ikhwan/www/lokoweb/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home/ikhwan/ww...', 100, Array)
+#1 /home/ikhwan/www/lokoweb/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Api\Kategori), true)
+#2 /home/ikhwan/www/lokoweb/system/Debug/Exceptions.php(308): include('/home/ikhwan/ww...')
+#3 /home/ikhwan/www/lokoweb/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 01:29:00 --> Unable to connect to the database.
+#0 /home/ikhwan/www/lokoweb/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/ikhwan/www/lokoweb/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/ikhwan/www/lokoweb/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/ikhwan/www/lokoweb/app/Models/Kategori_model.php(14): CodeIgniter\Model->findAll()
+#4 /home/ikhwan/www/lokoweb/app/Controllers/Api/Kategori.php(16): App\Models\Kategori_model->getCategory()
+#5 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(918): App\Controllers\Api\Kategori->index()
+#6 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Kategori))
+#7 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/ikhwan/www/lokoweb/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /home/ikhwan/www/lokoweb/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#10 {main}
+CRITICAL - 2020-08-13 01:29:00 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /home/ikhwan/www/lokoweb/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home/ikhwan/ww...', 100, Array)
+#1 /home/ikhwan/www/lokoweb/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Api\Kategori), true)
+#2 /home/ikhwan/www/lokoweb/system/Debug/Exceptions.php(308): include('/home/ikhwan/ww...')
+#3 /home/ikhwan/www/lokoweb/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 01:29:37 --> Unable to connect to the database.
+#0 /home/ikhwan/www/lokoweb/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/ikhwan/www/lokoweb/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/ikhwan/www/lokoweb/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/ikhwan/www/lokoweb/app/Models/Kategori_model.php(14): CodeIgniter\Model->findAll()
+#4 /home/ikhwan/www/lokoweb/app/Controllers/Api/Kategori.php(16): App\Models\Kategori_model->getCategory()
+#5 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(918): App\Controllers\Api\Kategori->index()
+#6 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Kategori))
+#7 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/ikhwan/www/lokoweb/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /home/ikhwan/www/lokoweb/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#10 {main}
+CRITICAL - 2020-08-13 01:29:37 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /home/ikhwan/www/lokoweb/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home/ikhwan/ww...', 100, Array)
+#1 /home/ikhwan/www/lokoweb/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Api\Kategori), true)
+#2 /home/ikhwan/www/lokoweb/system/Debug/Exceptions.php(308): include('/home/ikhwan/ww...')
+#3 /home/ikhwan/www/lokoweb/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 01:29:37 --> Unable to connect to the database.
+#0 /home/ikhwan/www/lokoweb/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/ikhwan/www/lokoweb/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/ikhwan/www/lokoweb/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/ikhwan/www/lokoweb/app/Models/Kategori_model.php(14): CodeIgniter\Model->findAll()
+#4 /home/ikhwan/www/lokoweb/app/Controllers/Api/Kategori.php(16): App\Models\Kategori_model->getCategory()
+#5 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(918): App\Controllers\Api\Kategori->index()
+#6 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Kategori))
+#7 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/ikhwan/www/lokoweb/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /home/ikhwan/www/lokoweb/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#10 {main}
+CRITICAL - 2020-08-13 01:29:37 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /home/ikhwan/www/lokoweb/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home/ikhwan/ww...', 100, Array)
+#1 /home/ikhwan/www/lokoweb/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Api\Kategori), true)
+#2 /home/ikhwan/www/lokoweb/system/Debug/Exceptions.php(308): include('/home/ikhwan/ww...')
+#3 /home/ikhwan/www/lokoweb/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 03:10:42 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::geetPost()
+#0 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(918): App\Controllers\Api\Kategori->create()
+#1 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Kategori))
+#2 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ikhwan/www/lokoweb/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ikhwan/www/lokoweb/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#5 {main}
+CRITICAL - 2020-08-13 03:10:49 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::geetPost()
+#0 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(918): App\Controllers\Api\Kategori->create()
+#1 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Kategori))
+#2 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ikhwan/www/lokoweb/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ikhwan/www/lokoweb/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#5 {main}
+CRITICAL - 2020-08-13 03:27:54 --> Call to a member function post() on null
+#0 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(918): App\Controllers\Api\Kategori->create()
+#1 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Kategori))
+#2 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ikhwan/www/lokoweb/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ikhwan/www/lokoweb/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#5 {main}
+CRITICAL - 2020-08-13 03:28:04 --> Call to a member function post() on null
+#0 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(918): App\Controllers\Api\Kategori->create()
+#1 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Kategori))
+#2 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ikhwan/www/lokoweb/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ikhwan/www/lokoweb/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#5 {main}
+CRITICAL - 2020-08-13 03:28:09 --> Call to a member function post() on null
+#0 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(918): App\Controllers\Api\Kategori->create()
+#1 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Kategori))
+#2 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ikhwan/www/lokoweb/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ikhwan/www/lokoweb/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#5 {main}
+CRITICAL - 2020-08-13 03:31:16 --> Call to a member function post() on null
+#0 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(918): App\Controllers\Api\Kategori->create()
+#1 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Kategori))
+#2 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ikhwan/www/lokoweb/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ikhwan/www/lokoweb/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#5 {main}
+CRITICAL - 2020-08-13 03:32:05 --> Call to a member function post() on null
+#0 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(918): App\Controllers\Api\Kategori->create()
+#1 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Kategori))
+#2 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ikhwan/www/lokoweb/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ikhwan/www/lokoweb/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#5 {main}
+CRITICAL - 2020-08-13 03:32:21 --> Call to a member function post() on null
+#0 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(918): App\Controllers\Api\Kategori->create()
+#1 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Kategori))
+#2 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ikhwan/www/lokoweb/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ikhwan/www/lokoweb/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#5 {main}
