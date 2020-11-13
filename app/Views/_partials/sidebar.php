@@ -29,9 +29,9 @@
       <!-- Nav Item - Pages Collapse Menu -->     
 
       <li class="nav-item">
-        <a class="nav-link" href="<?= base_url('kategori'); ?>">
+        <a class="nav-link" href="<?= base_url('kpi'); ?>">
           <i class="fas fa-fw fa-cog"></i>
-          <span>Kategori</span></a>
+          <span>Buat KPI</span></a>
       </li>
 
       <!-- Nav Item - Utilities Collapse Menu -->

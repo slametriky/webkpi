@@ -1,0 +1,7 @@
+CRITICAL - 2020-11-12 22:03:18 --> Call to undefined function App\Controllers\print_r_r()
+#0 /home/ikhwan/www/webkpi/system/CodeIgniter.php(918): App\Controllers\User->updatekpi()
+#1 /home/ikhwan/www/webkpi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 /home/ikhwan/www/webkpi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ikhwan/www/webkpi/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ikhwan/www/webkpi/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#5 {main}

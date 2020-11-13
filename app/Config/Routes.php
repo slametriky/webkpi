@@ -30,10 +30,15 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Dashboard::index');
-$routes->get('/kategori', 'Dashboard::tampilKategori');
+$routes->get('/', 'User::index');
+$routes->get('/kpi', 'User::kpi');
+$routes->get('/tambahkpi', 'User::tambahkpi');
 
-$routes->resource('/api/kategori', ['controller' =>'\App\Controllers\Api\Kategori']);
+$routes->get('/getkpi', 'User::getKpi');
+$routes->post('/simpankpi', 'User::simpankpi');
+$routes->post('/hapuskpi', 'User::hapuskpi');
+$routes->post('/updatekpi', 'User::updatekpi');
+
 
 /**
  * --------------------------------------------------------------------

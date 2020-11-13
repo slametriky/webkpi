@@ -1,0 +1,10 @@
+CRITICAL - 2020-11-10 10:54:06 --> You must set the database table to be used with your query.
+#0 /home/ikhwan/www/lokoweb/system/Model.php(1237): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /home/ikhwan/www/lokoweb/system/Model.php(1816): CodeIgniter\Model->builder()
+#2 /home/ikhwan/www/lokoweb/app/Controllers/User.php(98): CodeIgniter\Model->__call('hapusKpi', Array)
+#3 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(918): App\Controllers\User->hapuskpi()
+#4 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/ikhwan/www/lokoweb/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 /home/ikhwan/www/lokoweb/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#8 {main}

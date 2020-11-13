@@ -35,7 +35,7 @@
         <div class="sidebar-brand-icon rotate-n-15">
           <i class="fas fa-laugh-wink"></i>
         </div>
-        <div class="sidebar-brand-text mx-3">LOKO</div>
+        <div class="sidebar-brand-text mx-3">KPI</div>
       </a>
 
       <!-- Divider -->
@@ -59,9 +59,9 @@
       <!-- Nav Item - Pages Collapse Menu -->     
 
       <li class="nav-item">
-        <a class="nav-link" href="<?= base_url('kategori'); ?>">
+        <a class="nav-link" href="<?= base_url('kpi'); ?>">
           <i class="fas fa-fw fa-cog"></i>
-          <span>Kategori</span></a>
+          <span>KPI</span></a>
       </li>
 
       <!-- Nav Item - Utilities Collapse Menu -->
@@ -206,7 +206,7 @@
       <footer class="sticky-footer bg-white">
         <div class="container my-auto">
           <div class="copyright text-center my-auto">
-            <span>Copyright &copy; Loko 2020</span>
+            <span>Copyright &copy; 2020</span>
           </div>
         </div>
       </footer>

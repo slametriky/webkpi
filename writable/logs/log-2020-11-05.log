@@ -1,0 +1,133 @@
+CRITICAL - 2020-11-05 10:52:15 --> syntax error, unexpected 'return' (T_RETURN), expecting ';' or '{'
+#0 /home/ikhwan/www/lokoweb/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/home/ikhwan/ww...')
+#1 /home/ikhwan/www/lokoweb/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/ikhwan/www/lokoweb/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/ikhwan/www/lokoweb/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#9 {main}
+CRITICAL - 2020-11-05 10:55:22 --> Call to a member function getKpi() on null
+#0 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(918): App\Controllers\User->kpi()
+#1 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ikhwan/www/lokoweb/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ikhwan/www/lokoweb/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#5 {main}
+CRITICAL - 2020-11-05 10:55:40 --> Call to a member function getKpi() on null
+#0 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(918): App\Controllers\User->kpi()
+#1 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ikhwan/www/lokoweb/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ikhwan/www/lokoweb/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#5 {main}
+CRITICAL - 2020-11-05 10:55:41 --> Call to a member function getKpi() on null
+#0 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(918): App\Controllers\User->kpi()
+#1 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ikhwan/www/lokoweb/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ikhwan/www/lokoweb/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#5 {main}
+CRITICAL - 2020-11-05 10:55:42 --> Call to a member function getKpi() on null
+#0 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(918): App\Controllers\User->kpi()
+#1 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ikhwan/www/lokoweb/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ikhwan/www/lokoweb/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#5 {main}
+CRITICAL - 2020-11-05 10:55:42 --> Call to a member function getKpi() on null
+#0 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(918): App\Controllers\User->kpi()
+#1 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ikhwan/www/lokoweb/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ikhwan/www/lokoweb/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#5 {main}
+CRITICAL - 2020-11-05 10:55:42 --> Call to a member function getKpi() on null
+#0 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(918): App\Controllers\User->kpi()
+#1 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ikhwan/www/lokoweb/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ikhwan/www/lokoweb/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#5 {main}
+CRITICAL - 2020-11-05 10:55:43 --> Call to a member function getKpi() on null
+#0 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(918): App\Controllers\User->kpi()
+#1 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ikhwan/www/lokoweb/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ikhwan/www/lokoweb/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#5 {main}
+CRITICAL - 2020-11-05 10:55:43 --> Call to a member function getKpi() on null
+#0 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(918): App\Controllers\User->kpi()
+#1 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ikhwan/www/lokoweb/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ikhwan/www/lokoweb/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#5 {main}
+CRITICAL - 2020-11-05 10:56:09 --> Call to a member function getKpi() on null
+#0 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(918): App\Controllers\User->kpi()
+#1 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ikhwan/www/lokoweb/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ikhwan/www/lokoweb/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#5 {main}
+CRITICAL - 2020-11-05 10:56:10 --> Call to a member function getKpi() on null
+#0 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(918): App\Controllers\User->kpi()
+#1 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ikhwan/www/lokoweb/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ikhwan/www/lokoweb/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#5 {main}
+CRITICAL - 2020-11-05 10:56:10 --> Call to a member function getKpi() on null
+#0 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(918): App\Controllers\User->kpi()
+#1 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ikhwan/www/lokoweb/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ikhwan/www/lokoweb/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#5 {main}
+CRITICAL - 2020-11-05 10:56:11 --> Call to a member function getKpi() on null
+#0 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(918): App\Controllers\User->kpi()
+#1 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ikhwan/www/lokoweb/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ikhwan/www/lokoweb/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#5 {main}
+CRITICAL - 2020-11-05 10:56:11 --> Call to a member function getKpi() on null
+#0 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(918): App\Controllers\User->kpi()
+#1 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ikhwan/www/lokoweb/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ikhwan/www/lokoweb/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#5 {main}
+CRITICAL - 2020-11-05 10:59:40 --> Call to a member function table() on null
+#0 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(918): App\Controllers\User->kpi()
+#1 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ikhwan/www/lokoweb/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ikhwan/www/lokoweb/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#5 {main}
+CRITICAL - 2020-11-05 11:12:07 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::get()
+#0 /home/ikhwan/www/lokoweb/app/Controllers/User.php(18): App\Models\User_model->getKpi(1)
+#1 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(918): App\Controllers\User->kpi()
+#2 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ikhwan/www/lokoweb/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/ikhwan/www/lokoweb/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#6 {main}
+CRITICAL - 2020-11-05 11:26:12 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::join()
+#0 /home/ikhwan/www/lokoweb/app/Controllers/User.php(18): App\Models\User_model->getKpi(1)
+#1 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(918): App\Controllers\User->kpi()
+#2 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ikhwan/www/lokoweb/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/ikhwan/www/lokoweb/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#6 {main}
+CRITICAL - 2020-11-05 11:26:29 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::join()
+#0 /home/ikhwan/www/lokoweb/app/Controllers/User.php(18): App\Models\User_model->getKpi(1)
+#1 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(918): App\Controllers\User->kpi()
+#2 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 /home/ikhwan/www/lokoweb/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ikhwan/www/lokoweb/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/ikhwan/www/lokoweb/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#6 {main}
