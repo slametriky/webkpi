@@ -1,0 +1,16 @@
+CRITICAL - 2020-12-02 16:47:43 --> Call to a member function getSegment() on null
+#0 /home/ikhwan/www/webkpi/system/CodeIgniter.php(918): App\Controllers\User->sop()
+#1 /home/ikhwan/www/webkpi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 /home/ikhwan/www/webkpi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ikhwan/www/webkpi/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ikhwan/www/webkpi/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#5 {main}
+CRITICAL - 2020-12-02 16:48:54 --> Request URI segment is out of range: 1
+#0 /home/ikhwan/www/webkpi/system/HTTP/URI.php(515): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 /home/ikhwan/www/webkpi/app/Controllers/User.php(148): CodeIgniter\HTTP\URI->getSegment(1)
+#2 /home/ikhwan/www/webkpi/system/CodeIgniter.php(918): App\Controllers\User->sop()
+#3 /home/ikhwan/www/webkpi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /home/ikhwan/www/webkpi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ikhwan/www/webkpi/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /home/ikhwan/www/webkpi/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#7 {main}

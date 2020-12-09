@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>SB Admin 2 - Login</title>
+  <title>KPI - Login</title>
 
   <!-- Custom fonts for this template-->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -21,53 +21,40 @@
 </head>
 
 <body class="bg-gradient-primary">
-
   <div class="container">
-
     <!-- Outer Row -->
     <div class="row justify-content-center">
-
-      <div class="col-xl-10 col-lg-12 col-md-9">
-
+      <div class="col-md-6">
         <div class="card o-hidden border-0 shadow-lg my-5">
           <div class="card-body p-0">
             <!-- Nested Row within Card Body -->
-            <div class="row">
-              <div class="col-lg-6 d-none d-lg-block bg-login-image"></div>
-              <div class="col-lg-6">
+            <div class="row">              
+              <div class="col-md-12">
                 <div class="p-5">
                   <div class="text-center">
-                    <h1 class="h4 text-gray-900 mb-4">Welcome Back!</h1>
+                    <h1 class="h4 text-gray-900 mb-4">KPI</h1>
+                    <p>Silahkan Login</p>
                   </div>
-                  <form class="user">
-                    <div class="form-group">
-                      <input type="email" class="form-control form-control-user" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter Email Address...">
-                    </div>
-                    <div class="form-group">
-                      <input type="password" class="form-control form-control-user" id="exampleInputPassword" placeholder="Password">
-                    </div>
-                    <div class="form-group">
-                      <div class="custom-control custom-checkbox small">
-                        <input type="checkbox" class="custom-control-input" id="customCheck">
-                        <label class="custom-control-label" for="customCheck">Remember Me</label>
-                      </div>
-                    </div>
-                    <a href="index.html" class="btn btn-primary btn-user btn-block">
-                      Login
-                    </a>
-                    <hr>                    
-                  </form>
-                  <hr>                
+                    <?php if(session()->getFlashdata('msg')):?>
+                        <div class="alert alert-danger"><?= session()->getFlashdata('msg') ?></div>
+                    <?php endif;?>
+                    <form action="<?= base_url("login") ?>" method="POST" class="user">
+                        <div class="form-group">
+                          <input type="text" class="form-control form-control-user" name="nik" id="nik" required placeholder="NIK">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control form-control-user" name="password" id="password" required placeholder="Password">
+                        </div>                   
+                        <button class="btn btn-primary btn-user btn-block" type="submit">Login</button>                    
+                        <hr>                    
+                    </form>                            
                 </div>
               </div>
             </div>
           </div>
         </div>
-
       </div>
-
     </div>
-
   </div>
 
   <!-- Bootstrap core JavaScript-->

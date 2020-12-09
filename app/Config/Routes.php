@@ -31,13 +31,25 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'User::index');
-$routes->get('/kpi', 'User::kpi');
+$routes->get('/kpi', 'User::kpi', ['filter' => 'auth']);
+$routes->get('/login', 'Auth::index');
 $routes->get('/tambahkpi', 'User::tambahkpi');
+$routes->get('/getKpiByUser', 'User::getKpiByUser');
+$routes->get('/getsop/(:num)', 'User::getSop/$1');
+$routes->get('/sop/(:num)', 'User::sop/$1');
 
-$routes->get('/getkpi', 'User::getKpi');
+
 $routes->post('/simpankpi', 'User::simpankpi');
 $routes->post('/hapuskpi', 'User::hapuskpi');
 $routes->post('/updatekpi', 'User::updatekpi');
+$routes->post('/simpansop', 'User::simpansop');
+$routes->post('/hapussop', 'User::hapussop');
+$routes->post('/updatesop', 'User::updatesop');
+
+//Auth
+$routes->get('/logout', 'Auth::logout');
+$routes->post('/login', 'Auth::login');
+
 
 
 /**

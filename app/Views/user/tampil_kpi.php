@@ -9,7 +9,7 @@
         </div>
         <!-- Card Body -->
         <div class="card-body">
-            <a  data-toggle="modal" @click="modalTambah()" data-target="#modalKPI" href="#" class="btn btn-primary"><i class="fa fa-plus"></i> Tambah KPI</a>            
+            <a data-toggle="modal" @click="modalTambah()" data-target="#modalKPI" href="#" class="btn btn-primary"><i class="fa fa-plus"></i> Tambah KPI</a>            
             <br><br>
             <div class="table-responsive">
                 <table class="table table-bordered"  width="100%" cellspacing="0">
@@ -32,21 +32,22 @@
                             <td>{{ data.jumlahSop }}</td>
                             <td>{{ data.selesai }}</td>                            
                             <td>{{ data.belum }}</td>       
-                            <td>                                 
+                            <td>                                                
+                                <button @click="sop(data.id)" class="btn btn-primary">SOP</button>                      
                                 <button @click="selectedKpi(data)" data-toggle="modal" data-target="#modalEditKPI" class="btn btn-primary">Edit</button>        
-                                <a @click="hapusKpi(data.id)" href="#" class="btn btn-danger"></i>Hapus</a>            
+                                <button @click="hapusKpi(data.id)" class="btn btn-danger">Hapus</button>                                      
                             </td>                     
                         </tr>
                     </tbody>
                 </table>
             </div>
 
-            <div class="modal fade" id="modalKPI" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal fade" id="modalKPI"  tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
                             <h5 class="modal-title" id="judulModal"> {{ judulModal }}</h5>
-                            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                            <button class="close" type="button"  data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">×</span>
                             </button>
                         </div>
@@ -72,12 +73,12 @@
                 </div>
             </div>
 
-            <div class="modal fade" id="modalEditKPI" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal fade" data-backdrop="static" data-keyboard="false" id="modalEditKPI" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
                             <h5 class="modal-title" id="judulModal"> Edit KPI</h5>
-                            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                            <button class="close" type="button" data-dismiss="modal" @click="tutupModal()"  aria-label="Close">
                             <span aria-hidden="true">×</span>
                             </button>
                         </div>
@@ -98,7 +99,7 @@
                             </form>
                         </div>
                         <div class="modal-footer">                        
-                            <button class="btn btn-secondary" type="button" data-dismiss="modal">Batal</button>
+                            <button class="btn btn-secondary" type="button" @click="tutupModal()"  data-dismiss="modal">Batal</button>
                         </div>                    
                     </div>
                 </div>
@@ -137,7 +138,7 @@
             },
             methods: {     
                 getKpi: function () {
-                    axios.get('getkpi')
+                    axios.get('getKpiByUser')
                         .then(res => {                            
                              // handle success
                             if(res.data != null){
@@ -158,9 +159,10 @@
                     .then(res => {
                         // handle success                        
                         if(res.data.code == 200){
-                            this.getKpi();
+                            
                             $('#modalKPI').modal('hide'); 
                             alert('berhasil');
+                            this.getKpi();
                         } else {
                             console.log('gagal');
                         }                        
@@ -195,13 +197,10 @@
                     this.showModalTambah = true;    
                 },
                 selectedKpi: function(data){
-                    this.tmpKpi = data;        
-                    console.log(this.tmpKpi);                               
+                    this.tmpKpi = data;                                                       
                 },
                 hapusKpi: function(id){            
-
-                    if(confirm("Yakin hapus data?")){
-                        
+                    if(confirm("Yakin hapus data?")){                        
                         axios.post('hapuskpi', {
                             id
                         })
@@ -217,6 +216,13 @@
                             console.log(err);
                         })
                     }
+                },
+                sop: function(id) {                    
+                    // console.log(id);                    
+                    window.location.href = "<?= base_url('sop') ?>/"+id;
+                },
+                tutupModal: function(){
+                    this.getKpi();
                 }
 
             },    

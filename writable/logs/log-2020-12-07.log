@@ -1,0 +1,48 @@
+CRITICAL - 2020-12-07 10:34:34 --> Too few arguments to function CodeIgniter\HTTP\IncomingRequest::getFile(), 0 passed in /home/ikhwan/www/webkpi/app/Controllers/User.php on line 163 and exactly 1 expected
+#0 /home/ikhwan/www/webkpi/app/Controllers/User.php(163): CodeIgniter\HTTP\IncomingRequest->getFile()
+#1 /home/ikhwan/www/webkpi/system/CodeIgniter.php(918): App\Controllers\User->simpanSop()
+#2 /home/ikhwan/www/webkpi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 /home/ikhwan/www/webkpi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ikhwan/www/webkpi/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/ikhwan/www/webkpi/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#6 {main}
+CRITICAL - 2020-12-07 11:09:26 --> mime_in[avatar,image/jpg,image/jpeg is not a valid rule.
+#0 /home/ikhwan/www/webkpi/system/Validation/Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('mime_in[avatar,...')
+#1 /home/ikhwan/www/webkpi/system/Validation/Validation.php(189): CodeIgniter\Validation\Validation->processRules('file', 'file', NULL, Array, Array)
+#2 /home/ikhwan/www/webkpi/system/Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 /home/ikhwan/www/webkpi/app/Controllers/User.php(170): CodeIgniter\Controller->validate(Array)
+#4 /home/ikhwan/www/webkpi/system/CodeIgniter.php(918): App\Controllers\User->simpanSop()
+#5 /home/ikhwan/www/webkpi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /home/ikhwan/www/webkpi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/ikhwan/www/webkpi/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/ikhwan/www/webkpi/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#9 {main}
+CRITICAL - 2020-12-07 11:10:05 --> syntax error, unexpected '$validated' (T_VARIABLE)
+#0 /home/ikhwan/www/webkpi/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/home/ikhwan/ww...')
+#1 /home/ikhwan/www/webkpi/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/ikhwan/www/webkpi/system/CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 /home/ikhwan/www/webkpi/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /home/ikhwan/www/webkpi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/ikhwan/www/webkpi/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/ikhwan/www/webkpi/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#9 {main}
+CRITICAL - 2020-12-07 11:10:50 --> syntax error, unexpected '?>', expecting ',' or ')'
+#0 /home/ikhwan/www/webkpi/system/Common.php(1119): CodeIgniter\View\View->render('user/sop', Array, true)
+#1 /home/ikhwan/www/webkpi/app/Controllers/User.php(156): view('user/sop', Array)
+#2 /home/ikhwan/www/webkpi/system/CodeIgniter.php(918): App\Controllers\User->sop('7')
+#3 /home/ikhwan/www/webkpi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /home/ikhwan/www/webkpi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ikhwan/www/webkpi/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /home/ikhwan/www/webkpi/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#7 {main}
+CRITICAL - 2020-12-07 11:21:37 --> The original file is not a valid file.
+#0 /home/ikhwan/www/webkpi/system/HTTP/Files/UploadedFile.php(172): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 /home/ikhwan/www/webkpi/app/Controllers/User.php(178): CodeIgniter\HTTP\Files\UploadedFile->move('/home/ikhwan/ww...', '1607361697_f64b...')
+#2 /home/ikhwan/www/webkpi/system/CodeIgniter.php(918): App\Controllers\User->simpanSop()
+#3 /home/ikhwan/www/webkpi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /home/ikhwan/www/webkpi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ikhwan/www/webkpi/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /home/ikhwan/www/webkpi/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#7 {main}

@@ -1,0 +1,33 @@
+CRITICAL - 2020-11-29 18:31:00 --> Unable to connect to the database.
+#0 /home/ikhwan/www/webkpi/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/ikhwan/www/webkpi/system/Database/BaseBuilder.php(2019): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/ikhwan/www/webkpi/app/Models/User_model.php(12): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 /home/ikhwan/www/webkpi/app/Controllers/User.php(22): App\Models\User_model->getKpi(1)
+#4 /home/ikhwan/www/webkpi/system/CodeIgniter.php(918): App\Controllers\User->getKpi()
+#5 /home/ikhwan/www/webkpi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /home/ikhwan/www/webkpi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/ikhwan/www/webkpi/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/ikhwan/www/webkpi/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#9 {main}
+CRITICAL - 2020-11-29 18:31:08 --> Unable to connect to the database.
+#0 /home/ikhwan/www/webkpi/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/ikhwan/www/webkpi/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#2 /home/ikhwan/www/webkpi/app/Models/User_model.php(26): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 /home/ikhwan/www/webkpi/app/Controllers/User.php(74): App\Models\User_model->insertKpi(Array)
+#4 /home/ikhwan/www/webkpi/system/CodeIgniter.php(918): App\Controllers\User->simpanKpi()
+#5 /home/ikhwan/www/webkpi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /home/ikhwan/www/webkpi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/ikhwan/www/webkpi/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/ikhwan/www/webkpi/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#9 {main}
+CRITICAL - 2020-11-29 18:31:09 --> Unable to connect to the database.
+#0 /home/ikhwan/www/webkpi/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/ikhwan/www/webkpi/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#2 /home/ikhwan/www/webkpi/app/Models/User_model.php(26): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 /home/ikhwan/www/webkpi/app/Controllers/User.php(74): App\Models\User_model->insertKpi(Array)
+#4 /home/ikhwan/www/webkpi/system/CodeIgniter.php(918): App\Controllers\User->simpanKpi()
+#5 /home/ikhwan/www/webkpi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /home/ikhwan/www/webkpi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/ikhwan/www/webkpi/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/ikhwan/www/webkpi/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#9 {main}
