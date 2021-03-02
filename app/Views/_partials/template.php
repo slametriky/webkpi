@@ -15,6 +15,8 @@
   <link href="<?= base_url('themes'); ?>/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css" rel="stylesheet">
+
   <!-- Custom styles for this template-->
   <link href="<?= base_url('themes'); ?>/css/sb-admin-2.min.css" rel="stylesheet">
 
@@ -54,13 +56,34 @@
       </div>
 
       <!-- Nav Item - Pages Collapse Menu -->     
-
+      <?php
+        $session = session();          
+      ?>
+      <?php if($session->level == 'user'):  ?>
       <li class="nav-item">
         <a class="nav-link" href="<?= base_url('kpi'); ?>">
           <i class="fas fa-fw fa-chart-area"></i>
           <span>KPI</span></a>
       </li>
-
+      <li class="nav-item">
+        <a class="nav-link" href="<?= base_url('ganti_password'); ?>">
+          <i class="fas fa-fw fa-user"></i>
+          <span>Ganti Password</span></a>
+      </li>
+      <?php endif;  ?>
+      
+      <?php if($session->level == 'admin'):  ?>
+      <li class="nav-item">
+        <a class="nav-link" href="<?= base_url('admin/kpi'); ?>">
+          <i class="fas fa-fw fa-chart-area"></i>
+          <span>KPI</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="<?= base_url('admin/ganti_password'); ?>">
+          <i class="fas fa-fw fa-user"></i>
+          <span>Ganti Password</span></a>
+      </li>
+      <?php endif;  ?>
       <!-- Nav Item - Utilities Collapse Menu -->
       <!-- <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
@@ -151,7 +174,7 @@
             <!-- Nav Item - User Information -->
             <li class="nav-item dropdown no-arrow">
               <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <span class="mr-2 d-none d-lg-inline text-gray-600 small"><?= $session->username ?></span>
+                <span class="mr-2 d-none d-lg-inline text-gray-600 small"><?= $_SESSION['nama'] ?></span>
                 <img class="img-profile rounded-circle" src="https://source.unsplash.com/QAB-WJcbgJk/60x60">
               </a>
               <!-- Dropdown - User Information -->
@@ -218,6 +241,7 @@
 
   <!-- Custom scripts for all pages-->
   <script src="<?= base_url('themes'); ?>/js/sb-admin-2.min.js"></script>
+  
   <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
 

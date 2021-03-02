@@ -1,0 +1,45 @@
+CRITICAL - 2021-01-17 04:49:43 --> syntax error, unexpected 'kpi' (T_STRING), expecting ';' or ','
+#0 /home/ikhwan/www/webkpi/system/View/View.php(257): CodeIgniter\View\View->render()
+#1 /home/ikhwan/www/webkpi/system/Common.php(1119): CodeIgniter\View\View->render()
+#2 /home/ikhwan/www/webkpi/app/Controllers/Admin.php(11): view()
+#3 /home/ikhwan/www/webkpi/system/CodeIgniter.php(918): App\Controllers\Admin->index()
+#4 /home/ikhwan/www/webkpi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /home/ikhwan/www/webkpi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/ikhwan/www/webkpi/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 /home/ikhwan/www/webkpi/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#8 {main}
+CRITICAL - 2021-01-17 08:28:09 --> Class 'App\Controllers\User_model' not found
+#0 /home/ikhwan/www/webkpi/system/CodeIgniter.php(918): App\Controllers\Admin->getKpiByUser()
+#1 /home/ikhwan/www/webkpi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /home/ikhwan/www/webkpi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/ikhwan/www/webkpi/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ikhwan/www/webkpi/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#5 {main}
+CRITICAL - 2021-01-17 08:44:02 --> Class 'App\Controllers\User_model' not found
+#0 /home/ikhwan/www/webkpi/system/CodeIgniter.php(918): App\Controllers\Admin->getKpiByUser()
+#1 /home/ikhwan/www/webkpi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /home/ikhwan/www/webkpi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/ikhwan/www/webkpi/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ikhwan/www/webkpi/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#5 {main}
+CRITICAL - 2021-01-17 08:44:24 --> Class 'App\Controllers\User_model' not found
+#0 /home/ikhwan/www/webkpi/system/CodeIgniter.php(918): App\Controllers\Admin->getKpiByUser()
+#1 /home/ikhwan/www/webkpi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /home/ikhwan/www/webkpi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/ikhwan/www/webkpi/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ikhwan/www/webkpi/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#5 {main}
+CRITICAL - 2021-01-17 08:46:48 --> Class 'App\Controllers\User_model' not found
+#0 /home/ikhwan/www/webkpi/system/CodeIgniter.php(918): App\Controllers\Admin->getKpiByUser()
+#1 /home/ikhwan/www/webkpi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /home/ikhwan/www/webkpi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/ikhwan/www/webkpi/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ikhwan/www/webkpi/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#5 {main}
+CRITICAL - 2021-01-17 08:46:54 --> Class 'App\Controllers\User_model' not found
+#0 /home/ikhwan/www/webkpi/system/CodeIgniter.php(918): App\Controllers\Admin->getKpiByUser()
+#1 /home/ikhwan/www/webkpi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /home/ikhwan/www/webkpi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/ikhwan/www/webkpi/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ikhwan/www/webkpi/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#5 {main}

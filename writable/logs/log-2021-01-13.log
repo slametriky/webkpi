@@ -1,0 +1,24 @@
+CRITICAL - 2021-01-13 10:32:54 --> Call to undefined method App\Models\Auth_model::cekPasswordLama
+#0 /home/ikhwan/www/webkpi/app/Controllers/Auth.php(68): CodeIgniter\Model->__call()
+#1 /home/ikhwan/www/webkpi/system/CodeIgniter.php(918): App\Controllers\Auth->gantiPasswordAction()
+#2 /home/ikhwan/www/webkpi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /home/ikhwan/www/webkpi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/ikhwan/www/webkpi/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/ikhwan/www/webkpi/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#6 {main}
+CRITICAL - 2021-01-13 10:33:24 --> Call to undefined method App\Models\Auth_model::cekPasswordLama
+#0 /home/ikhwan/www/webkpi/app/Controllers/Auth.php(68): CodeIgniter\Model->__call()
+#1 /home/ikhwan/www/webkpi/system/CodeIgniter.php(918): App\Controllers\Auth->gantiPasswordAction()
+#2 /home/ikhwan/www/webkpi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /home/ikhwan/www/webkpi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/ikhwan/www/webkpi/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/ikhwan/www/webkpi/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#6 {main}
+CRITICAL - 2021-01-13 10:33:56 --> Call to undefined method App\Models\Auth_model::cekPasswordLama
+#0 /home/ikhwan/www/webkpi/app/Controllers/Auth.php(68): CodeIgniter\Model->__call()
+#1 /home/ikhwan/www/webkpi/system/CodeIgniter.php(918): App\Controllers\Auth->gantiPasswordAction()
+#2 /home/ikhwan/www/webkpi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /home/ikhwan/www/webkpi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/ikhwan/www/webkpi/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/ikhwan/www/webkpi/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#6 {main}

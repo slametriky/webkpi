@@ -1,0 +1,44 @@
+CRITICAL - 2021-01-25 18:03:29 --> syntax error, unexpected ';', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 /home/ikhwan/www/webkpi/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile()
+#1 /home/ikhwan/www/webkpi/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /home/ikhwan/www/webkpi/app/Controllers/Admin.php(21): spl_autoload_call()
+#4 /home/ikhwan/www/webkpi/system/CodeIgniter.php(918): App\Controllers\Admin->getListKpi()
+#5 /home/ikhwan/www/webkpi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /home/ikhwan/www/webkpi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/ikhwan/www/webkpi/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/ikhwan/www/webkpi/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#9 {main}
+CRITICAL - 2021-01-25 18:03:33 --> syntax error, unexpected ';', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 /home/ikhwan/www/webkpi/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile()
+#1 /home/ikhwan/www/webkpi/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /home/ikhwan/www/webkpi/app/Controllers/Admin.php(21): spl_autoload_call()
+#4 /home/ikhwan/www/webkpi/system/CodeIgniter.php(918): App\Controllers\Admin->getListKpi()
+#5 /home/ikhwan/www/webkpi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /home/ikhwan/www/webkpi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/ikhwan/www/webkpi/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/ikhwan/www/webkpi/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#9 {main}
+CRITICAL - 2021-01-25 18:03:35 --> syntax error, unexpected ';', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 /home/ikhwan/www/webkpi/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile()
+#1 /home/ikhwan/www/webkpi/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /home/ikhwan/www/webkpi/app/Controllers/Admin.php(21): spl_autoload_call()
+#4 /home/ikhwan/www/webkpi/system/CodeIgniter.php(918): App\Controllers\Admin->getListKpi()
+#5 /home/ikhwan/www/webkpi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /home/ikhwan/www/webkpi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/ikhwan/www/webkpi/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/ikhwan/www/webkpi/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#9 {main}
+CRITICAL - 2021-01-25 18:03:36 --> syntax error, unexpected ';', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 /home/ikhwan/www/webkpi/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile()
+#1 /home/ikhwan/www/webkpi/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /home/ikhwan/www/webkpi/app/Controllers/Admin.php(21): spl_autoload_call()
+#4 /home/ikhwan/www/webkpi/system/CodeIgniter.php(918): App\Controllers\Admin->getListKpi()
+#5 /home/ikhwan/www/webkpi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /home/ikhwan/www/webkpi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/ikhwan/www/webkpi/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/ikhwan/www/webkpi/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#9 {main}

@@ -1,0 +1,16 @@
+CRITICAL - 2021-01-24 09:57:44 --> Call to a member function table() on null
+#0 /home/ikhwan/www/webkpi/app/Controllers/Admin.php(23): App\Models\Admin_model->getJmlKpi()
+#1 /home/ikhwan/www/webkpi/system/CodeIgniter.php(918): App\Controllers\Admin->getListKpi()
+#2 /home/ikhwan/www/webkpi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /home/ikhwan/www/webkpi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/ikhwan/www/webkpi/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/ikhwan/www/webkpi/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#6 {main}
+CRITICAL - 2021-01-24 09:59:59 --> Call to a member function table() on null
+#0 /home/ikhwan/www/webkpi/app/Controllers/Admin.php(23): App\Models\Admin_model->getJmlKpi()
+#1 /home/ikhwan/www/webkpi/system/CodeIgniter.php(918): App\Controllers\Admin->getListKpi()
+#2 /home/ikhwan/www/webkpi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /home/ikhwan/www/webkpi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/ikhwan/www/webkpi/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/ikhwan/www/webkpi/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#6 {main}

@@ -9,16 +9,16 @@
         </div>
         <!-- Card Body -->
         <div class="card-body">                        
-        <form method="post" action="<?= base_url('simpan_kpi') ?>">
-            <div class="form-group">
-                <label>Judul KPI</label>
-                <input type="text" name="judulKpi" class="form-control" id="judulKpi" placeholder="Judul KPI">                
-            </div>
-            <div class="form-group">
-                <label>Tanggal Berakhir</label>
-                <input type="text" name="tanggalBerakhir" class="form-control" placeholder="Tanggal Berakhir">
-            </div>           
-            <button type="submit" class="btn btn-primary">Simpan</button>
+            <form method="post" action="<?= base_url('simpan_kpi') ?>">
+                <div class="form-group">
+                    <label>Judul KPI</label>
+                    <input type="text" name="judulKpi" class="form-control" id="judulKpi" placeholder="Judul KPI">                
+                </div>
+                <div class="form-group">
+                    <label>Tanggal Berakhir</label>
+                    <input type="text" name="tanggalBerakhir" class="form-control" placeholder="Tanggal Berakhir">
+                </div>           
+                <button type="submit" class="btn btn-primary">Simpan</button>
             </form>
         </div>
     </div>

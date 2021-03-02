@@ -1,0 +1,31 @@
+CRITICAL - 2021-02-21 09:53:03 --> Too few arguments to function App\Models\Auth_model::insertUser(), 1 passed in /home/ikhwan/www/webkpi/app/Controllers/Auth.php on line 96 and exactly 2 expected
+#0 /home/ikhwan/www/webkpi/app/Controllers/Auth.php(96): App\Models\Auth_model->insertUser()
+#1 /home/ikhwan/www/webkpi/system/CodeIgniter.php(918): App\Controllers\Auth->prosesDaftar()
+#2 /home/ikhwan/www/webkpi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /home/ikhwan/www/webkpi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/ikhwan/www/webkpi/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/ikhwan/www/webkpi/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#6 {main}
+CRITICAL - 2021-02-21 09:54:08 --> Object of class App\Models\Auth_model could not be converted to string
+#0 /home/ikhwan/www/webkpi/system/CodeIgniter.php(918): App\Controllers\Auth->prosesDaftar()
+#1 /home/ikhwan/www/webkpi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /home/ikhwan/www/webkpi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/ikhwan/www/webkpi/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ikhwan/www/webkpi/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#5 {main}
+CRITICAL - 2021-02-21 09:57:35 --> Call to undefined method App\Models\Auth_model::insertID
+#0 /home/ikhwan/www/webkpi/app/Controllers/Auth.php(98): CodeIgniter\Model->__call()
+#1 /home/ikhwan/www/webkpi/system/CodeIgniter.php(918): App\Controllers\Auth->prosesDaftar()
+#2 /home/ikhwan/www/webkpi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /home/ikhwan/www/webkpi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/ikhwan/www/webkpi/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/ikhwan/www/webkpi/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#6 {main}
+CRITICAL - 2021-02-21 10:05:48 --> Call to undefined method App\Models\Auth_model::insertID
+#0 /home/ikhwan/www/webkpi/app/Controllers/Auth.php(98): CodeIgniter\Model->__call()
+#1 /home/ikhwan/www/webkpi/system/CodeIgniter.php(918): App\Controllers\Auth->prosesDaftar()
+#2 /home/ikhwan/www/webkpi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /home/ikhwan/www/webkpi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/ikhwan/www/webkpi/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/ikhwan/www/webkpi/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#6 {main}

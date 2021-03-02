@@ -1,0 +1,22 @@
+CRITICAL - 2021-01-15 18:14:21 --> Use of undefined constant passwd_lama - assumed 'passwd_lama' (this will throw an Error in a future version of PHP)
+#0 /home/ikhwan/www/webkpi/app/Controllers/Auth.php(78): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/ikhwan/www/webkpi/system/CodeIgniter.php(918): App\Controllers\Auth->gantiPasswordAction()
+#2 /home/ikhwan/www/webkpi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /home/ikhwan/www/webkpi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/ikhwan/www/webkpi/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/ikhwan/www/webkpi/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#6 {main}
+CRITICAL - 2021-01-15 19:06:37 --> Call to undefined function App\Controllers\PASSWORD_DEFAULT()
+#0 /home/ikhwan/www/webkpi/system/CodeIgniter.php(918): App\Controllers\Auth->gantiPasswordAction()
+#1 /home/ikhwan/www/webkpi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /home/ikhwan/www/webkpi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/ikhwan/www/webkpi/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ikhwan/www/webkpi/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#5 {main}
+CRITICAL - 2021-01-15 19:07:18 --> Call to undefined function App\Controllers\PASSWORD_DEFAULT()
+#0 /home/ikhwan/www/webkpi/system/CodeIgniter.php(918): App\Controllers\Auth->gantiPasswordAction()
+#1 /home/ikhwan/www/webkpi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /home/ikhwan/www/webkpi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/ikhwan/www/webkpi/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ikhwan/www/webkpi/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#5 {main}

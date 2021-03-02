@@ -8,7 +8,7 @@
             <h6 class="m-0 font-weight-bold text-primary">Manajemen KPI</h6>            
         </div>
         <!-- Card Body -->
-        <div class="card-body">
+        <div class="card-body">            
             <a data-toggle="modal" @click="modalTambah()" data-target="#modalKPI" href="#" class="btn btn-primary"><i class="fa fa-plus"></i> Tambah KPI</a>            
             <br><br>
             <div class="table-responsive">
@@ -35,7 +35,7 @@
                             <td>                                                
                                 <button @click="sop(data.id)" class="btn btn-primary">SOP</button>                      
                                 <button @click="selectedKpi(data)" data-toggle="modal" data-target="#modalEditKPI" class="btn btn-primary">Edit</button>        
-                                <button @click="hapusKpi(data.id)" class="btn btn-danger">Hapus</button>                                      
+                                <button :disabled="data.jumlahSop > 0 ? true : false" @click="hapusKpi(data.id, index)" class="btn btn-danger">Hapus</button>                                      
                             </td>                     
                         </tr>
                     </tbody>
@@ -60,7 +60,7 @@
 
                                 <div class="form-group">
                                 <label>Tanggal Berakhir</label>
-                                    <input type="text" class="form-control" v-model="form.tanggal_berakhir" id="tanggal_berakhir" placeholder="Tanggal Berakhir" required>                        
+                                    <input type="text" data-date-format="yyyy-mm-dd"  class="form-control datepicker" v-model="form.tanggal_berakhir" autocomplete="off" id="tanggal_berakhir" placeholder="Tanggal Berakhir" required>                        
                                 </div>
                                     
                                 <button type="submit" class="btn btn-primary" v-show="!updateSubmit">Simpan</button> <!-- jika tidak update maka tombol update tidak muncul -->                                 
@@ -114,19 +114,28 @@
 <?= $this->section('script') ?>
     <script src="<?= base_url('themes'); ?>/vendor/datatables/jquery.dataTables.min.js"></script>
     <script src="<?= base_url('themes'); ?>/vendor/datatables/dataTables.bootstrap4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
 
     <!-- Page level custom scripts -->
     <script src="<?= base_url('themes'); ?>/js/demo/datatables-demo.js"></script>
+
+    <!-- <script>        
+
+        $(document).ready(function(){
+            $('#tanggal_berakhir').datepicker({
+                // format: 'yyyy-mm-dd',            
+                autoclose: true    
+            });
+        })        
+    </script> -->
 
     <script>
         let app = new Vue({
             el: '#myapp',
             data: {
                 kpi: [],
-                form: {
-                  id: '',
-                  judul_kpi: '',
-                  tanggal_berakhir: '',
+                form: {         
+                    
                 },            
                 updateSubmit: false,
                 judulModal : '',
@@ -143,7 +152,9 @@
                              // handle success
                             if(res.data != null){
                                 this.form = res.data;
-                            } 
+                            } else {
+                                this.form = [];
+                            }
                             
                         })
                         .catch(err => {
@@ -152,24 +163,26 @@
                         })
                 },        
                 simpanKpi: function(){                    
-                    axios.post('simpankpi', {
-                        judul_kpi: this.form.judul_kpi,
-                        tanggal_berakhir: this.form.tanggal_berakhir
-                    })
-                    .then(res => {
-                        // handle success                        
-                        if(res.data.code == 200){
+
+                    console.log(this.form);
+                    // axios.post('simpankpi', {
+                    //     judul_kpi: this.form.judul_kpi,
+                    //     tanggal_berakhir: this.form.tanggal_berakhir
+                    // })
+                    // .then(res => {
+                    //     // handle success                        
+                    //     if(res.data.code == 200){
                             
-                            $('#modalKPI').modal('hide'); 
-                            alert('berhasil');
-                            this.getKpi();
-                        } else {
-                            console.log('gagal');
-                        }                        
-                    })
-                    .catch(err => {                        
-                        console.log(err);
-                    })
+                    //         $('#modalKPI').modal('hide'); 
+                    //         alert('berhasil');
+                    //         this.getKpi();
+                    //     } else {
+                    //         console.log('gagal');
+                    //     }                        
+                    // })
+                    // .catch(err => {                        
+                    //     console.log(err);
+                    // })
                 }, 
                 updateKpi: function(){                    
                     axios.post('updatekpi', {
@@ -199,15 +212,18 @@
                 selectedKpi: function(data){
                     this.tmpKpi = data;                                                       
                 },
-                hapusKpi: function(id){            
-                    if(confirm("Yakin hapus data?")){                        
+                hapusKpi: function(id, index){                                             
+
+                    if(confirm("Yakin hapus data?")){                                                                                                                 
                         axios.post('hapuskpi', {
                             id
                         })
                         .then(res => {                            
                             // handle success
-                            if(res.data.code == 200){                                
+                            if(res.data.code == 200){                                                                    
+                                                                
                                 this.getKpi();                                                              
+
                             } else {
                                 console.log('gagal');
                             }                           
@@ -229,7 +245,14 @@
             created: function(){
                 axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
                 this.getKpi();
-            }
+            },
+            mounted() {
+                
+                $("#tanggal_berakhir").datepicker({autoclose:true}).on(
+                    "changeDate", () => {this.form.tanggal_berakhir = $('#tanggal_berakhir').val()}
+                );
+                
+            },  
         })
     </script>
   

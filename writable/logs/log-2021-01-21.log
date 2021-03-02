@@ -1,0 +1,72 @@
+CRITICAL - 2021-01-21 04:23:28 --> Class 'App\Controllers\User_model' not found
+#0 /home/ikhwan/www/webkpi/system/CodeIgniter.php(918): App\Controllers\Admin->getListKpi()
+#1 /home/ikhwan/www/webkpi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /home/ikhwan/www/webkpi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/ikhwan/www/webkpi/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ikhwan/www/webkpi/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#5 {main}
+CRITICAL - 2021-01-21 04:23:52 --> Class 'App\Controllers\User_model' not found
+#0 /home/ikhwan/www/webkpi/system/CodeIgniter.php(918): App\Controllers\Admin->getListKpi()
+#1 /home/ikhwan/www/webkpi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /home/ikhwan/www/webkpi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/ikhwan/www/webkpi/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ikhwan/www/webkpi/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#5 {main}
+CRITICAL - 2021-01-21 09:01:17 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row_array()
+#0 /home/ikhwan/www/webkpi/app/Controllers/Admin.php(23): App\Models\Admin_model->getListKpi()
+#1 /home/ikhwan/www/webkpi/system/CodeIgniter.php(918): App\Controllers\Admin->getListKpi()
+#2 /home/ikhwan/www/webkpi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /home/ikhwan/www/webkpi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/ikhwan/www/webkpi/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/ikhwan/www/webkpi/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#6 {main}
+CRITICAL - 2021-01-21 09:01:25 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::row_array()
+#0 /home/ikhwan/www/webkpi/app/Controllers/Admin.php(23): App\Models\Admin_model->getListKpi()
+#1 /home/ikhwan/www/webkpi/system/CodeIgniter.php(918): App\Controllers\Admin->getListKpi()
+#2 /home/ikhwan/www/webkpi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /home/ikhwan/www/webkpi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/ikhwan/www/webkpi/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/ikhwan/www/webkpi/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#6 {main}
+CRITICAL - 2021-01-21 09:03:34 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRowArray()
+#0 /home/ikhwan/www/webkpi/app/Controllers/Admin.php(23): App\Models\Admin_model->getListKpi()
+#1 /home/ikhwan/www/webkpi/system/CodeIgniter.php(918): App\Controllers\Admin->getListKpi()
+#2 /home/ikhwan/www/webkpi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /home/ikhwan/www/webkpi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/ikhwan/www/webkpi/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/ikhwan/www/webkpi/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#6 {main}
+CRITICAL - 2021-01-21 09:04:18 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRowArray()
+#0 /home/ikhwan/www/webkpi/app/Controllers/Admin.php(23): App\Models\Admin_model->getListKpi()
+#1 /home/ikhwan/www/webkpi/system/CodeIgniter.php(918): App\Controllers\Admin->getListKpi()
+#2 /home/ikhwan/www/webkpi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /home/ikhwan/www/webkpi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/ikhwan/www/webkpi/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/ikhwan/www/webkpi/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#6 {main}
+CRITICAL - 2021-01-21 09:06:11 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRowArray()
+#0 /home/ikhwan/www/webkpi/app/Controllers/Admin.php(23): App\Models\Admin_model->getListKpi()
+#1 /home/ikhwan/www/webkpi/system/CodeIgniter.php(918): App\Controllers\Admin->getListKpi()
+#2 /home/ikhwan/www/webkpi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /home/ikhwan/www/webkpi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/ikhwan/www/webkpi/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/ikhwan/www/webkpi/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#6 {main}
+CRITICAL - 2021-01-21 09:09:42 --> You must set the database table to be used with your query.
+#0 /home/ikhwan/www/webkpi/app/Models/Admin_model.php(14): CodeIgniter\Database\BaseConnection->table()
+#1 /home/ikhwan/www/webkpi/app/Controllers/Admin.php(23): App\Models\Admin_model->getListKpi()
+#2 /home/ikhwan/www/webkpi/system/CodeIgniter.php(918): App\Controllers\Admin->getListKpi()
+#3 /home/ikhwan/www/webkpi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /home/ikhwan/www/webkpi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/ikhwan/www/webkpi/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /home/ikhwan/www/webkpi/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#7 {main}
+CRITICAL - 2021-01-21 09:10:04 --> You must set the database table to be used with your query.
+#0 /home/ikhwan/www/webkpi/app/Models/Admin_model.php(14): CodeIgniter\Database\BaseConnection->table()
+#1 /home/ikhwan/www/webkpi/app/Controllers/Admin.php(23): App\Models\Admin_model->getListKpi()
+#2 /home/ikhwan/www/webkpi/system/CodeIgniter.php(918): App\Controllers\Admin->getListKpi()
+#3 /home/ikhwan/www/webkpi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /home/ikhwan/www/webkpi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/ikhwan/www/webkpi/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /home/ikhwan/www/webkpi/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#7 {main}

@@ -30,13 +30,19 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'User::index');
+$routes->get('/', 'User::index', ['filter' => 'auth']);
 $routes->get('/kpi', 'User::kpi', ['filter' => 'auth']);
 $routes->get('/login', 'Auth::index');
-$routes->get('/tambahkpi', 'User::tambahkpi');
-$routes->get('/getKpiByUser', 'User::getKpiByUser');
-$routes->get('/getsop/(:num)', 'User::getSop/$1');
-$routes->get('/sop/(:num)', 'User::sop/$1');
+$routes->get('/register', 'Auth::register');
+$routes->get('/tambahkpi', 'User::tambahkpi', ['filter' => 'auth']);
+$routes->get('/getKpiByUser', 'User::getKpiByUser', ['filter' => 'auth']);
+$routes->get('/getsop/(:num)', 'User::getSop/$1', ['filter' => 'auth']);
+$routes->get('/sop/(:num)', 'User::sop/$1', ['filter' => 'auth']);
+$routes->get('/ganti_password', 'Auth::gantiPassword', ['filter' => 'auth']);
+
+//admin
+$routes->get('/getListKpi', 'Admin::getListKpi', ['filter' => 'auth']);
+
 
 
 $routes->post('/simpankpi', 'User::simpankpi');
@@ -45,10 +51,22 @@ $routes->post('/updatekpi', 'User::updatekpi');
 $routes->post('/simpansop', 'User::simpansop');
 $routes->post('/hapussop', 'User::hapussop');
 $routes->post('/updatesop', 'User::updatesop');
+$routes->post('/ganti_password', 'Auth::gantiPasswordAction');
+
+//admin
+$routes->get('/admin', 'Admin::index', ['filter' => 'auth']);
+$routes->get('/admin/kpi', 'Admin::kpi', ['filter' => 'auth']);
+$routes->get('/admin/kpi', 'Admin::kpi', ['filter' => 'auth']);
+$routes->get('/admin/ganti_password', 'Auth::gantiPassword', ['filter' => 'auth']);
+
+$routes->post('/admin/getKpiByUser', 'Admin::getKpiByUser');
+$routes->post('/admin/getSop', 'Admin::sop');
+
 
 //Auth
 $routes->get('/logout', 'Auth::logout');
 $routes->post('/login', 'Auth::login');
+$routes->post('/daftar', 'Auth::prosesDaftar');
 
 
 

@@ -41,12 +41,13 @@
                     <form action="<?= base_url("login") ?>" method="POST" class="user">
                         <div class="form-group">
                           <input type="text" class="form-control form-control-user" name="nik" id="nik" required placeholder="NIK">
-                        </div>
+                        </div>                       
                         <div class="form-group">
                             <input type="password" class="form-control form-control-user" name="password" id="password" required placeholder="Password">
                         </div>                   
                         <button class="btn btn-primary btn-user btn-block" type="submit">Login</button>                    
-                        <hr>                    
+                        <hr>               
+                        <p class="text-center">Sudah punya akun, silahkan <a href="<?= base_url('register') ?>">Daftar</a></p>     
                     </form>                            
                 </div>
               </div>

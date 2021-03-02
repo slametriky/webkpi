@@ -1,0 +1,27 @@
+CRITICAL - 2021-02-20 10:29:13 --> You must set the database table to be used with your query.
+#0 /home/ikhwan/www/webkpi/app/Models/Auth_model.php(18): CodeIgniter\Database\BaseConnection->table()
+#1 /home/ikhwan/www/webkpi/app/Controllers/Auth.php(79): App\Models\Auth_model->cekUser()
+#2 /home/ikhwan/www/webkpi/system/CodeIgniter.php(918): App\Controllers\Auth->prosesDaftar()
+#3 /home/ikhwan/www/webkpi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /home/ikhwan/www/webkpi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/ikhwan/www/webkpi/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /home/ikhwan/www/webkpi/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#7 {main}
+CRITICAL - 2021-02-20 10:30:58 --> print_r() expects at most 2 parameters, 7 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/ikhwan/www/webkpi/app/Controllers/Auth.php(78): print_r()
+#2 /home/ikhwan/www/webkpi/system/CodeIgniter.php(918): App\Controllers\Auth->prosesDaftar()
+#3 /home/ikhwan/www/webkpi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /home/ikhwan/www/webkpi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/ikhwan/www/webkpi/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /home/ikhwan/www/webkpi/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#7 {main}
+CRITICAL - 2021-02-20 10:33:22 --> You must set the database table to be used with your query.
+#0 /home/ikhwan/www/webkpi/app/Models/Auth_model.php(18): CodeIgniter\Database\BaseConnection->table()
+#1 /home/ikhwan/www/webkpi/app/Controllers/Auth.php(80): App\Models\Auth_model->cekUser()
+#2 /home/ikhwan/www/webkpi/system/CodeIgniter.php(918): App\Controllers\Auth->prosesDaftar()
+#3 /home/ikhwan/www/webkpi/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /home/ikhwan/www/webkpi/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/ikhwan/www/webkpi/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /home/ikhwan/www/webkpi/system/Commands/Server/rewrite.php(34): require_once('/home/ikhwan/ww...')
+#7 {main}
