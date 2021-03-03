@@ -92,7 +92,7 @@
 
                                 <div class="form-group">
                                 <label>Tanggal Berakhir</label>
-                                    <input type="text" class="form-control" v-model="tmpKpi.batasTanggal" id="tanggal_berakhir" placeholder="Tanggal Berakhir" required>                        
+                                    <input type="text" class="form-control" data-date-format="yyyy-mm-dd" v-model="tmpKpi.batasTanggal" id="tanggal_berakhir_edit" placeholder="Tanggal Berakhir" required>                        
                                 </div>
                                     
                                 <button type="submit" class="btn btn-primary">Update</button> <!-- jika tidak update maka tombol update tidak muncul -->                                 
@@ -163,26 +163,25 @@
                         })
                 },        
                 simpanKpi: function(){                    
-
-                    console.log(this.form);
-                    // axios.post('simpankpi', {
-                    //     judul_kpi: this.form.judul_kpi,
-                    //     tanggal_berakhir: this.form.tanggal_berakhir
-                    // })
-                    // .then(res => {
-                    //     // handle success                        
-                    //     if(res.data.code == 200){
+                    
+                    axios.post('simpankpi', {
+                        judul_kpi: this.form.judul_kpi,
+                        tanggal_berakhir: this.form.tanggal_berakhir
+                    })
+                    .then(res => {
+                        // handle success                        
+                        if(res.data.code == 200){
                             
-                    //         $('#modalKPI').modal('hide'); 
-                    //         alert('berhasil');
-                    //         this.getKpi();
-                    //     } else {
-                    //         console.log('gagal');
-                    //     }                        
-                    // })
-                    // .catch(err => {                        
-                    //     console.log(err);
-                    // })
+                            $('#modalKPI').modal('hide'); 
+                            alert('berhasil');
+                            this.getKpi();
+                        } else {
+                            console.log('gagal');
+                        }                        
+                    })
+                    .catch(err => {                        
+                        console.log(err);
+                    })
                 }, 
                 updateKpi: function(){                    
                     axios.post('updatekpi', {
@@ -195,7 +194,7 @@
                         // handle success                                                
                         if(res.data.code == 200){
                             this.getKpi();
-                            $('#modalKPI').modal('hide'); 
+                            $('#modalEditKPI').modal('hide'); 
                             alert('berhasil');
                         } else {
                             console.log('gagal');
@@ -250,6 +249,10 @@
                 
                 $("#tanggal_berakhir").datepicker({autoclose:true}).on(
                     "changeDate", () => {this.form.tanggal_berakhir = $('#tanggal_berakhir').val()}
+                );
+
+                $("#tanggal_berakhir_edit").datepicker({autoclose:true}).on(
+                    "changeDate", () => {this.tmpKpi.batasTanggal = $('#tanggal_berakhir_edit').val()}
                 );
                 
             },  

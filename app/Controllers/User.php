@@ -91,14 +91,16 @@ class User extends BaseController
 
     public function updatekpi(){
 
+        $session = session();       
         $model = new User_model;
-        $json = $this->request->getJSON();        
+        $json = $this->request->getJSON();     
+           
        
         $data = [
             'judul_kpi' => $json->judulKpi,
             'batas_tanggal' => $json->batasTanggal,
-            'user_id' => 1
-        ];    
+            'user_id' => $session->user_id
+        ];            
         
         $id = $json->id;
 
